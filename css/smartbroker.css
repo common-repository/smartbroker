@@ -1,0 +1,132 @@
+.sb_wrapper  td {border: 0px;}
+.sb_wrapper p {font-size: 12px;}
+.sb_wrapper table p {margin-bottom: 2px;}
+.sb_wrapper td {padding: 10px 6px; vertical-align: center;}
+.sb_wrapper hr {margin: 2px 0;}
+.sb_wrapper table {border: 0; margin: 0;}
+.sb_wrapper .ui-state-highlight, .sb_wrapper .ui-state-error {padding: 10px;}
+#sb_key_facts_table {margin-bottom: 0px; border: 0px;}
+.sb_wrapper .ui-widget-header  p {padding: 5px; margin: 0;}
+.sb_wrapper img {max-width: 100%;}
+.sb_wrapper .button {padding: 10px;}
+.sb_wrapper .search_icon {display: inline-block; position: relative; top: 4px;}
+#boat_search , #boat_search_box , #boat_search_v2 {padding: 5px;}
+.sb_icon {
+display: inline-block;
+position: relative;
+top: 3px;
+left: 2px;
+}
+#sb_sail_icon {display: block; width: 150px; height: 189px; background: url('../images/sail.gif') no-repeat; margin: auto;}
+#sb_power_icon {display: block; width: 150px; height: 65px; background: url('../images/power.gif') no-repeat; margin: 30px auto;}
+#sb_specifications {vertical-align: top;}
+
+
+#results div a.sb_img_standard  {width: 100px;}
+.sb_results_button_link_standard {display: none;}
+
+#sb_primary_image img {margin-bottom: .5em;}
+
+.jcarousel-container-horizontal {box-sizing: content-box;}
+.sb_wide_only {display: block;}
+.sb_narrow_only {display: none;}
+
+/* ------------------------------------------------------------------------------------------
+/* Clean theme */
+
+.sb_wrapper.sb_theme_clean p{
+	font-size: inherit;
+	}
+	
+#sb_clean_images {
+	float: right;
+	max-width: 55%;
+	padding-left: .5em;
+	}
+
+#sb_clean_images img {padding: 0;}
+
+#sb_clean_thumb_window {
+	max-height: 160px;
+	overflow: hidden;
+	margin: 0 -.5% 0 -.5%;
+	}
+	
+.sb_clean_vt_holder {
+	display: none;
+	}
+	
+#sb_clean_thumb_window .sb_clean_thumb {
+	height: 80px;
+	width: 24%;
+	margin: .5%;
+	float: left;
+	
+	}
+	
+.sb_clean_thumb a {
+	height: 80px;
+	width: 100%;
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 3px;
+	box-shadow: none !important;
+	position: relative;
+	}
+	
+.sb_clean_thumb img {max-height: 80px; display: none;}
+
+.sb_vr_overlay {position: absolute; right: 0; height: 50%; top: 0;}
+.sb_vr_overlay.sb_vr_overlay_video {position: absolute; top: 50%; left: 50%; margin-top: -20px; margin-left: -28px; height: 40px; width: 56px;}
+	
+@media only screen and (max-width: 600px) {
+	#sb_clean_images {
+		float: none;
+		min-width: 100%;
+		padding-left: 0em;
+		}
+	
+	.sb_narrow_only {display: block;}
+	.sb_wide_only {display: none;}
+}
+
+@media print {
+	.sb_no_print {display: none !important;}
+	}
+	
+.sb_clearfix:before,
+.sb_clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.sb_clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.sb_clearfix {
+    *zoom: 1;
+}
+
+#sb_clean_thumb_window .sb_clean_thumb.sb_new_thumb {width: 100px; height: 80px;}
+#sb_clean_thumb_window.sb_new_thumb {max-height: inherit;}
+#sb_gallery_overlay {position: fixed; top: 0; left: 0; background: rgba(0,0,0,1); width: 100%; height: 100%; z-index: 999;}
+#sb_gallery {position: absolute; width: 96vw; height: 96vh; margin: 2vh 2vw; background: #333333; background-repeat: no-repeat; background-position: center; background-size: cover;}
+#sb_gallery_prev {background: url('../images/icon-prev.png'); height: 5%; width: 5%; background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; top: 47.5%; left: 2%;}
+#sb_gallery_next {background: url('../images/icon-next.png'); height: 5%; width: 5%; background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; top: 47.5%; right: 2%;}
+#sb_gallery_close {background: url('../images/icon-close.png'); height: 5%; width: 5%; background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; top: 2%; right: 2%;}
+#sb_view_original {background: url('../images/icon-ext.png'); height: 5%; width: 5%; background-repeat: no-repeat; background-position: center; background-size: contain; position: absolute; top: 2%; right: 7%;}
+
+#mono_vr_wrapper{ height: 96vh; width: 96vw;}
+#sb_yt_wrapper{ height: 100%; width: 100%;}
+
+#sb_featured_carousel {background: silver; width: 100%; position: relative; overflow: hidden;}
+#sb_featured_slide_holder {width: 200%; height: 100%; position: absolute; top: 0; left: 0;}
+#sb_featured_slide_1, #sb_featured_slide_2 {background-size: cover; background-position: center; position: absolute; top: 0; left: 0; height: 100%; width: 50%;}
+#sb_featured_slide_2 {left: 50%;}
+#sb_featured_slide_1 p, #sb_featured_slide_2 p {display: block; position: absolute; bottom: 0; left: 0; padding: .5em; background: rgba(0,0,0,0.4); color: white; margin: 0; width: 100%;}

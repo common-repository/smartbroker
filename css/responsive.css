@@ -1,0 +1,150 @@
+
+/*  SECTIONS  ============================================================================= */
+
+.smartbroker_section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.smartbroker_group:before,
+.smartbroker_group:after {
+    content:"";
+    display:table;
+}
+.smartbroker_group:after {
+    clear:both;
+}
+.smartbroker_group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.smartbroker_col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.smartbroker_col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.smartbroker_col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+/*  GRID OF FIVE   ============================================================================= */
+
+	
+.smartbroker_span_5_of_5 {
+	width: 100%;
+}
+
+.smartbroker_span_4_of_5 {
+  	width: 79.68%; 
+}
+
+.smartbroker_span_3_of_5 {
+  	width: 59.36%; 
+}
+
+.smartbroker_span_2_of_5 {
+  	width: 39.04%;
+}
+
+.smartbroker_span_1_of_5 {
+  	width: 18.72%;
+}
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.smartbroker_span_3_of_3 {
+	width: 100%; 
+}
+
+.smartbroker_span_2_of_3 {
+	width: 66.13%; 
+}
+
+.smartbroker_span_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
+
+@media only screen and (max-width: 600px) {
+	.smartbroker_span_3_of_3 {
+		width: 100%; 
+	}
+	.smartbroker_span_2_of_3 {
+		width: 100%; 
+	}
+	.smartbroker_span_1_of_3 {
+		width: 100%;
+	}
+}
+/*  GRID OF TWO   ============================================================================= */
+
+
+.smartbroker_span_2_of_2 {
+	width: 100%;
+}
+
+.smartbroker_span_1_of_2 {
+	width: 49.2%;
+}
+
+/* hide header if using tabs */
+.smartbroker_tab_header {display: none;}
+
+@media only screen and (min-width: 601px) {
+	#sb_broker_notes, #sb_specifications, #sb_photos, #sb_find_out_more {padding: .2em;}
+	#sb_broker_notes div.ui-widget-content, #sb_specifications div.ui-widget-content, #sb_photos div.ui-widget-content, #sb_find_out_more div.ui-widget-content {border: 0; background: none; padding-top: 1em;}
+	#sb_specifications div.ui-widget-content {padding-top: .2em;}
+	
+	}
+
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
+
+@media only screen and (max-width: 600px) {
+	.smartbroker_span_2_of_2 {
+		width: 100%; 
+	}
+	.smartbroker_span_1_of_2 {
+		width: 100%; 
+	}
+	
+	.smartbroker_span_5_of_5 {
+		width: 100%; 
+	}
+	.smartbroker_span_4_of_5 {
+		width: 100%; 
+	}
+	.smartbroker_span_3_of_5 {
+		width: 100%; 
+	}
+	.smartbroker_span_2_of_5 {
+		width: 100%; 
+	}
+	.smartbroker_span_1_of_5 {
+		width: 100%; 
+	}
+	
+	/*don't tab */
+	#tab_links{display: none;}
+	#sb_broker_notes, #sb_specifications, #sb_photos, #sb_find_out_more {display: block !important; padding: 0; margin-top: .2em;}
+	#sb_broker_notes div.ui-widget-content, #sb_specifications div.ui-widget-content, #sb_photos div.ui-widget-content, #sb_find_out_more div.ui-widget-content {padding: .5em;}
+	.smartbroker_tab_header {display: block;}
+	#sb_tabs_container  div.ui-tabs{background: none; border: none; padding: none; }
+	.smartbroker_col {margin-left: 0;}
+	#sb_tabs_container div.ui-tabs {padding: 0;}
+}

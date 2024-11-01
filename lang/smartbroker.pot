@@ -1,0 +1,295 @@
+# Copyright (C) 2013 SmartBroker
+# This file is distributed under the same license as the SmartBroker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartBroker 3.1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/smartbroker\n"
+"POT-Creation-Date: 2013-10-15 21:28:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: search_v2.php:32 search_v2.php:287
+msgid "Search for boats"
+msgstr ""
+
+#: search_v2.php:35 search_v2.php:290
+msgid "Boat type:"
+msgstr ""
+
+#: search_v2.php:36 search_v2.php:291
+msgid "Boat size:"
+msgstr ""
+
+#: search_v2.php:37 search_v2.php:292
+msgid "Drag handles to set boat size"
+msgstr ""
+
+#: search_v2.php:38 search_v2.php:293
+msgid "Price:"
+msgstr ""
+
+#: search_v2.php:39 search_v2.php:294
+msgid "Drag handles to set boat price"
+msgstr ""
+
+#: search_v2.php:53 search_v2.php:315
+msgid "Keywords:"
+msgstr ""
+
+#: search_v2.php:56 search_v2.php:318
+msgid "Builder:"
+msgstr ""
+
+#: search_v2.php:57 search_v2.php:319
+msgid "Currently lying:"
+msgstr ""
+
+#: search_v2.php:58 search_v2.php:320
+msgid "Built after:"
+msgstr ""
+
+#: search_v2.php:59 search_v2.php:321
+msgid "Search"
+msgstr ""
+
+#: search_v2.php:61 smartbroker.php:798
+msgid "Find by reference number"
+msgstr ""
+
+#: search_v2.php:65
+msgid "Boat reference:"
+msgstr ""
+
+#: search_v2.php:67 smartbroker.php:804
+msgid "Go"
+msgstr ""
+
+#: search_v2.php:72
+msgid "Search results"
+msgstr ""
+
+#: search_v2.php:85
+msgid "%s results found - showing results %s to %s."
+msgstr ""
+
+#: search_v2.php:216 smartbroker.php:464 smartbroker.php:726
+msgid "paid"
+msgstr ""
+
+#: search_v2.php:217 smartbroker.php:465 smartbroker.php:728
+msgid "not paid"
+msgstr ""
+
+#: search_v2.php:249
+msgid "built"
+msgstr ""
+
+#: search_v2.php:249
+msgid "lying"
+msgstr ""
+
+#: search_v2.php:261
+msgid "No results match your search."
+msgstr ""
+
+#: search_v2.php:261
+msgid "Quick searches:"
+msgstr ""
+
+#: search_v2.php:262
+msgid "Show all:"
+msgstr ""
+
+#: search_v2.php:263 smartbroker.php:785
+msgid "Sail"
+msgstr ""
+
+#: search_v2.php:265 smartbroker.php:786
+msgid "Power"
+msgstr ""
+
+#: search_v2.php:267
+msgid "Either"
+msgstr ""
+
+#: smartbroker.php:279
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: smartbroker.php:450
+msgid "I'm sorry, we can't find the boat you requested."
+msgstr ""
+
+#: smartbroker.php:451
+msgid "Go to the search page"
+msgstr ""
+
+#: smartbroker.php:475
+msgid "This listing contains some provisional information: details may change"
+msgstr ""
+
+#: smartbroker.php:544
+#: The '%s' in this string will be replaced by a number. Include a %s in the translation
+msgid "%s more photos &amp; videos of this boat are available."
+msgstr ""
+
+#: smartbroker.php:546
+msgid ""
+"Please <a href='/wp-register.php' title='Register'>register</a> or <a "
+"href='%s' title='Login'>log in</a> to see them."
+msgstr ""
+
+#: smartbroker.php:552
+msgid ""
+"Interested in this boat? Find out more or arrange a viewing by completing "
+"this form.\r\n"
+"\t\tWe'll get back to you with more information and take you thorough the "
+"options for viewing and buying this boat."
+msgstr ""
+
+#: smartbroker.php:555
+msgid ""
+"Alternatively, don't forget that you can call us on <b>%s</b> anytime for a "
+"chat."
+msgstr ""
+
+#: smartbroker.php:570
+msgid "Your email address:"
+msgstr ""
+
+#: smartbroker.php:576
+msgid "Phone number:"
+msgstr ""
+
+#: smartbroker.php:581
+msgid "Preferred contact method:"
+msgstr ""
+
+#: smartbroker.php:582
+msgid "Phone"
+msgstr ""
+
+#: smartbroker.php:583
+msgid "Email"
+msgstr ""
+
+#: smartbroker.php:587
+msgid "Notes:"
+msgstr ""
+
+#: smartbroker.php:597
+msgid "Send enquiry"
+msgstr ""
+
+#: smartbroker.php:603
+msgid "Thankyou for your enquiry. We will be in touch soon."
+msgstr ""
+
+#: smartbroker.php:606
+msgid ""
+"I'm afraid there has been a technical fault - your enquiry could not be sent "
+"to our system. Please call us on %s instead."
+msgstr ""
+
+#: smartbroker.php:615
+msgid ""
+"To find out more about this yacht, please <a href='/wp-register.php' "
+"title='Register'>register</a> or \r\n"
+"\t\t<a href='%s' title='Login'>log in</a>.<br/>Registration is free and "
+"takes seconds."
+msgstr ""
+
+#: smartbroker.php:618
+msgid "Don't forget you can call us on %s anytime for a chat."
+msgstr ""
+
+#: smartbroker.php:630
+msgid "(There are no broker's notes available for this boat)"
+msgstr ""
+
+#: smartbroker.php:651
+msgid "Boat reference"
+msgstr ""
+
+#: smartbroker.php:653
+msgid "Status"
+msgstr ""
+
+#: smartbroker.php:655
+msgid "Builder"
+msgstr ""
+
+#: smartbroker.php:656
+msgid "Boat model"
+msgstr ""
+
+#: smartbroker.php:657
+msgid "Type"
+msgstr ""
+
+#: smartbroker.php:658
+msgid "LOA"
+msgstr ""
+
+#: smartbroker.php:659
+msgid "Built"
+msgstr ""
+
+#: smartbroker.php:660
+msgid "Currently lying"
+msgstr ""
+
+#: smartbroker.php:661
+msgid "Price"
+msgstr ""
+
+#: smartbroker.php:672
+msgid "Notes"
+msgstr ""
+
+#: smartbroker.php:673 smartbroker.php:684
+msgid "Specifications"
+msgstr ""
+
+#: smartbroker.php:674 smartbroker.php:688
+msgid "Photos &amp; videos"
+msgstr ""
+
+#: smartbroker.php:675 smartbroker.php:692
+msgid "Find out more"
+msgstr ""
+
+#: smartbroker.php:678
+msgid "Broker's notes"
+msgstr ""
+
+#: smartbroker.php:763
+msgid "Search for your perfect boat"
+msgstr ""
+
+#: smartbroker.php:787
+msgid "All"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "SmartBroker"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (SmartBroker 3.1.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (SmartBroker 3.1.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.smart-broker.co.uk"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A plugin to insert SmartBroker data into a Wordpress site"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Nick Roberts"
+msgstr ""
